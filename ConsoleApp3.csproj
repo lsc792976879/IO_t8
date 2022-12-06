@@ -7,4 +7,16 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Google.Protobuf" Version="3.21.10" />
+      <PackageReference Include="Google.Protobuf.Tools" Version="3.21.10" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+      <PackageReference Include="protobuf-net" Version="3.1.25" />
+      <PackageReference Include="protobuf-net.BuildTools" Version="3.1.25">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="protoc_x64" Version="2.6.1" />
+    </ItemGroup>
+
 </Project>

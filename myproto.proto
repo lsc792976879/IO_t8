@@ -1,0 +1,8 @@
+﻿syntax = "proto2";
+package ConsoleApp3;
+
+message Person_Proto{
+    required string name = 1;
+    required string id = 2;
+    optional int32 age = 3 [default = 20];
+}
