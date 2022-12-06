@@ -19,4 +19,8 @@
       <PackageReference Include="protoc_x64" Version="2.6.1" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="data" />
+    </ItemGroup>
+
 </Project>
