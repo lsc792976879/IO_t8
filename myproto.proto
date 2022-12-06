@@ -1,8 +1,25 @@
 ﻿syntax = "proto2";
 package ConsoleApp3;
 
-message Person_Proto{
+message Phone{
+    required string name = 1;
+    required string type = 2;
+}
+
+message Person{
     required string name = 1;
     required string id = 2;
     optional int32 age = 3 [default = 20];
+    enum myenum
+    {
+        A = 1;
+        B = 2;
+        C = 3;
+        D = 4;
+        E = 5;
+        F = 6;
+        G = 7;
+    }
+    required Person son = 4;
+    required Phone phone = 5;
 }
