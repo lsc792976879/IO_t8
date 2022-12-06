@@ -69,7 +69,7 @@ public class Program
         }
         
 
-        //Proto-net插件测试
+        //Proto测试
         stopwatch.Restart();
         for (int i = 0; i < times; i++)
         {
